@@ -12,11 +12,4 @@ for i in range(-count, count+1):
     arr.append(i)
 
 res = arr[m] * arr[n]
-
-# Вывод результатов
 print(f"Первая позиция: {m+1}\nВторая позиция: {n+1}\n Результат: {count}\n{arr}\n{res}")
-
-for i in range(len(arr)-1, 0, -1):
-    j = random.randint(0, i + 1) 
-    list[i], list[j] = list[j], list[i] 
-print ("Перемешанный список: " +  str(list))
